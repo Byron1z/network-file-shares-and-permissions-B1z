@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/AeiqMDZ.png" alt="Traffic Examination"/>
 </p>
 
-<h1>Network File Shares and Permissions</h1>
+<h1>Network File Shares and Permissions in the Cloud (Azure)</h1>
 <p>
   In this tutorial, we'll learn about Network File Shares and Permissions. Network File Shares is a way for users to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
 
