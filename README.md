@@ -31,7 +31,7 @@ Network File Shares is a way for users to access another computer’s folder ove
   
 For this Lab, we’ll utilize the installation of the Active Directory lab.
 </p>
-<h2>When might we use Files Share</h2>
+<h2>When might we use File Share</h2>
 <p>
   <img src="https://i.imgur.com/EKaUOTR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
