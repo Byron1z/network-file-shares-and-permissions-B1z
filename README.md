@@ -3,10 +3,11 @@
 </p>
 
 <h1>Network File Shares and Permissions</h1>
-In this tutorial, we'll learn about Network File Shares and Permissions. Network File Shares is a way for users to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
+<p>
+  In this tutorial, we'll learn about Network File Shares and Permissions. Network File Shares is a way for users to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
 
-
-For this Lab, we’ll utilize the installation of the Active Directory lab.
+  For this Lab, we’ll utilize the installation of the Active Directory lab.
+</p>
 <br />
 
 <h2>Software and Technologies Used</h2>
@@ -20,3 +21,20 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 
 - Windows Server (2022)
 - Windows 10 Pro</b> (22H2)
+
+<h2> What is Network File Shares & Permissions</h2>
+<p>
+  <img src="https://i.imgur.com/eL7VqU9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Network File Shares is a way for users to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
+  
+For this Lab, we’ll utilize the installation of the Active Directory lab.
+</p>
+<h2>When might we use Files Share</h2>
+<p>
+  <img src="https://i.imgur.com/EKaUOTR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
