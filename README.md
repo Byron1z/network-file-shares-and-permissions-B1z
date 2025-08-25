@@ -31,6 +31,14 @@ Network File Shares is a way for users to access another computer’s folder ove
   
 For this Lab, we’ll utilize the installation of the Active Directory lab.
 </p>
+<br />
+<h2>How are File Permissions enforced in a Network environment?</h2>
+<p>
+  File Permissions in a network environment are enforced by the operating system and network protocols. When a user attempts to access a file, the system checks the user's permissions against the file's Access Control List (ACL). 
+  
+  If the user has the necessary permissions, access is granted; otherwise, it is denied. This process ensures that only authorized users can access or modify files, maintaining security and data integrity
+</p>
+<br />
 <h2>When might we use File Share</h2>
 <p>
   <img src="https://i.imgur.com/EKaUOTR.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
@@ -50,7 +58,9 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   <img src="https://i.imgur.com/wYS7Ok7.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  4. Set the following permissions (share the folder)
+  4. Set the following permissions (share the folder) from DC-1. 
+
+  Go to the location of the folder, right-click, Properties -> Sharing -> Share..., then type the name of the group you want to give File Permissions. 
 
   a. Folder: “read access”, Group: “Domain Users”, Permission: “Read”
 </p>
@@ -70,7 +80,11 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
    <img src="https://i.imgur.com/5c58CBu.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  d. (Skip accounting for now)
+  For this folder, only Domain Admins will have access, not Domain Users. Here's why by answering the question "What are the risks of sharing folders with Domain Users?".
+
+  Sharing folders with Domain Users can expose sensitive data to a large group of people, increasing the risk of unauthorized access or data breaches. It is important to carefully manage permissions and only grant access to users who need it for their work. Additionally, auditing and monitoring access can help detect and prevent misuse of shared resources.
+  
+  d. (Skip "accounting" folder for now)
 </p>
 <br />
 <h2>Attempt to access File Shares as a Normal User from Client-1</h2>
@@ -84,19 +98,19 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 <p>
   6. Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
-  For the Read-Access Folder, Domain Users are only allowed to view, not to create or modify.
+  For the "Read-Access" Folder, Domain Users are only allowed to view, not to create or modify.
 </p>
 <p>
   <img src="https://i.imgur.com/kAPHvLn.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  For the Write-Access Folder, Domain Users are allowed to view, write, or create files on the Write-Access folder.
+  For the "Write-Access" Folder, Domain Users are allowed to view, write, or create files on the Write-Access folder.
 </p>
 <p>
   <img src="https://i.imgur.com/Ti6A8zr.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  And for the No-Access folder, as a Domain User, we’re not allowed to view or open it entirely.
+  And for the "No-Access" folder, as a Domain User (not a Domain Admin), we’re not allowed to view or open it entirely.
 </p>
 <p>
   <img src="https://i.imgur.com/wq8YTk9.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
