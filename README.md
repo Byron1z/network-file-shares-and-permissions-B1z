@@ -24,7 +24,7 @@
 
 <h2> What is Network File Shares & Permissions</h2>
 <p>
-  <img src="https://i.imgur.com/eL7VqU9.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/eL7VqU9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Network File Shares is a way for users to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
@@ -41,7 +41,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 <br />
 <h2>When might we use File Share</h2>
 <p>
-  <img src="https://i.imgur.com/EKaUOTR.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/EKaUOTR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <h2>Create some sample File Shares with various Permissions</h2>
@@ -55,7 +55,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
      For this lab, these folders will be named to the specific tasks and access we’ll be providing these folders.
 </p>
 <p>
-  <img src="https://i.imgur.com/wYS7Ok7.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/wYS7Ok7.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   4. Set the following permissions (share the folder) from DC-1. 
@@ -65,19 +65,19 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   a. Folder: “read access”, Group: “Domain Users”, Permission: “Read”
 </p>
 <p>
-  <img src="https://i.imgur.com/gjKHbvd.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/gjKHbvd.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   b. Folder: “write-access”, Group: “Domain Users”, Permissions: “Read/Write” 
 </p>
 <p>
-  <img src="https://i.imgur.com/7SMSzyx.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/7SMSzyx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   c. Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write” 
 </p>
 <p>
-   <img src="https://i.imgur.com/5c58CBu.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+   <img src="https://i.imgur.com/5c58CBu.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   For this folder, only Domain Admins will have access, not Domain Users. Here's why by answering the question "What are the risks of sharing folders with Domain Users?".
@@ -92,8 +92,8 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
    5. On Client-1, navigate to the shared folder (start, run, \\dc-1) 
 </p>
 <p>
-  <img src="https://i.imgur.com/tJv6M5S.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
-  <img src="https://i.imgur.com/ouMEknQ.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/tJv6M5S.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/ouMEknQ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   6. Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
@@ -101,22 +101,62 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   For the "Read-Access" Folder, Domain Users are only allowed to view, not to create or modify.
 </p>
 <p>
-  <img src="https://i.imgur.com/kAPHvLn.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/kAPHvLn.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   For the "Write-Access" Folder, Domain Users are allowed to view, write, or create files on the Write-Access folder.
 </p>
 <p>
-  <img src="https://i.imgur.com/Ti6A8zr.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/Ti6A8zr.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   And for the "No-Access" folder, as a Domain User (not a Domain Admin), we’re not allowed to view or open it entirely.
 </p>
 <p>
-  <img src="https://i.imgur.com/wq8YTk9.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/wq8YTk9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<h2>Create an “ACCOUNTANTS” Security Group, assign permissions, and test Access</h2>
+<h2>Create an “ACCOUNTANTS” Security Group, assign Permissions, and test Access</h2>
+<p>
+  7. Go back to DC-1, in Active Directory Users & Computers, create a security group called “ACCOUNTANTS” 
+</p>
+<p>
+  <img src="https://i.imgur.com/lZzjbR2.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/IrBtCfC.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/c6ehk25.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  8. On the “Accounting” folder that was created earlier, set the following permissions: 
+
+  a. Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write” 
+</p>
+<p>
+  <img src="https://i.imgur.com/JiPGT05.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+ 9. On Client-1, log in as (someuser), try to access the "Accounting" folder. It should fail.
+</p>
+<p>
+  <img src="https://i.imgur.com/N5mz0LZ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  10. Log out of Client-1 as (someuser). 
+
+  11. Go back to DC-1, make that same someuser (biv.fim) a member of the “ACCOUNTANTS” Security Group.
+</p>
+<p>
+   <img src="https://i.imgur.com/CME8hf6.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/wrD94cF.png" height="100%" width="90%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  12. Sign back into Client-1 as (biv.fim) and try to access the “accounting” folder share in
+\\DC-1\ - Does it work now?
+
+  Yes it works now, Domain User "biv.fim" now has access to the "Accounting" folder.
+</p>
+<p>
+  <img src="https://i.imgur.com/hHyv6Nq.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
 
 
 
