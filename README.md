@@ -74,7 +74,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   <img src="https://i.imgur.com/7SMSzyx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  c. Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write” 
+  c. Folder: “no-access”, Group: “Domain Admins” (not Domain Users), “Permissions: “Read/Write” 
 </p>
 <p>
    <img src="https://i.imgur.com/5c58CBu.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
