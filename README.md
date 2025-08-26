@@ -157,6 +157,10 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 <p>
   <img src="https://i.imgur.com/hHyv6Nq.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+<p>
+  You can finally delete the VMs if you are done with the lab or keep using them for practice!
+</p>
 
 
 
