@@ -46,6 +46,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 <br />
 <h2>Create some sample File Shares with various Permissions</h2>
 <p>
+  
   1. Connect/log into "DC-1" as your Domain Admin account (mydomain.com\jane_admin)
   
   2. Connect/log into "Client-1" as a Normal User (mydomain\<someuser>) – (biv.fim)
