@@ -20,7 +20,7 @@
 <h2>💻 Operating Systems Used</h2>
 
 - **Windows Server (2022)**
-- Windows 10 Pro</b> (22H2)
+- **Windows 10 Pro</b> (22H2)**
 
 <h2> What is Network File Shares & Permissions</h2>
 <p>
