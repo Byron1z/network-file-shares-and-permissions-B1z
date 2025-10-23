@@ -10,7 +10,7 @@
 </p>
 <br />
 
-<h2>Software and Technologies Used</h2>
+<h2>💻⚙️ Software and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Domain Controller/Client Machine)
 - Remote Desktop
