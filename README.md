@@ -34,7 +34,8 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 <br />
 <h2>How are File Permissions enforced in a Network environment?</h2>
 <p>
-  File Permissions in a network environment are enforced by the operating system and network protocols. When a user attempts to access a file, the system checks the user's permissions against the file's Access Control List (ACL). 
+
+  File Permissions in a network environment are enforced by the operating system and network protocols. When a user attempts to access a file, the system checks the user's permissions against the file's **Access Control List (ACL)**. 
   
   If the user has the necessary permissions, access is granted; otherwise, it is denied. This process ensures that only authorized users can access or modify files, maintaining security and data integrity
 </p>
@@ -51,7 +52,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   
   2. Connect/log into "Client-1" as a Normal User (mydomain\<someuser>) – (biv.fim)
 
-  3. On DC-1, on the C:\ drive, create 4 folders: “read-access”, “write-access”, “no-access”, “accounting”.
+  3. On DC-1, on the C:\ drive, create 4 folders: “**read-access**”, “**write-access**”, “**no-access**”, “**accounting**”.
 
      For this lab, these folders will be named to the specific tasks and access we’ll be providing these folders.
 </p>
