@@ -89,7 +89,8 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   d. (Skip "accounting" folder for now)
 </p>
 <br />
-<h2>Attempt to access File Shares as a Normal User from Client-1</h2>
+
+<h2>🟢 Attempt to access File Shares as a Normal User from Client-1</h2>
 <p>
    5. On Client-1, navigate to the shared folder (start, run, \\dc-1) 
 </p>
@@ -98,27 +99,31 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   <img src="https://i.imgur.com/ouMEknQ.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
   6. Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
-  For the "Read-Access" Folder, Domain Users are only allowed to view, not to create or modify.
+  For the "**Read-Access**" Folder, Domain Users are only allowed to view, not to create or modify.
 </p>
 <p>
   <img src="https://i.imgur.com/kAPHvLn.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  For the "Write-Access" Folder, Domain Users are allowed to view, write, or create files on the Write-Access folder.
+
+  For the "**Write-Access**" Folder, Domain Users are allowed to view, write, or create files on the Write-Access folder.
 </p>
 <p>
   <img src="https://i.imgur.com/Ti6A8zr.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  And for the "No-Access" folder, as a Domain User (not a Domain Admin), we’re not allowed to view or open it entirely.
+
+  And for the "**No-Access**" folder, as a Domain User (not a Domain Admin), we’re not allowed to view or open it entirely.
 </p>
 <p>
   <img src="https://i.imgur.com/wq8YTk9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<h2>Create an “ACCOUNTANTS” Security Group, assign Permissions, and test Access</h2>
+
+<h2>🔵 Create an “ACCOUNTANTS” Security Group, assign Permissions, and test Access</h2>
 <p>
   7. Go back to DC-1, in Active Directory Users & Computers (ADUC), create a security group called “ACCOUNTANTS”.
 </p>
