@@ -67,19 +67,21 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
 
   Go to the location of the folder, right-click, **Properties -> Sharing -> Share...**, then type the name of the group you want to give File Permissions. 
 
-  a. Folder: “read access”, Group: “Domain Users”, Permission: “Read”
+  a. Folder: “**read access**”, Group: “Domain Users”, Permission: “Read”
 </p>
 <p>
   <img src="https://i.imgur.com/gjKHbvd.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  b. Folder: “write-access”, Group: “Domain Users”, Permissions: “Read/Write” 
+
+  b. Folder: “**write-access**”, Group: “Domain Users”, Permissions: “Read/Write” 
 </p>
 <p>
   <img src="https://i.imgur.com/7SMSzyx.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  c. Folder: “no-access”, Group: “Domain Admins” (not Domain Users), “Permissions: “Read/Write” 
+
+  c. Folder: “**no-access**”, Group: “**Domain Admins**” (Not Domain Users❗️), “Permissions: “Read/Write” 
 </p>
 <p>
    <img src="https://i.imgur.com/5c58CBu.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
