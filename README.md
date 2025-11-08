@@ -111,6 +111,8 @@ This process ensures that only authorized users can access or modify files, main
 
   6. Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
+Begin,
+
   For the "**Read-Access**" Folder, Domain Users are only allowed to view, not to create or modify.
 </p>
 <p>
