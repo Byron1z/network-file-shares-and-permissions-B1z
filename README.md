@@ -124,7 +124,7 @@ This process ensures that only authorized users can access or modify files, main
 </p>
 <p>
 
-  And for the "**No-Access**" folder, as a Domain User (not a Domain Admin), we’re not allowed to view or open it entirely.
+  And for the "**No-Access**" folder, as a Domain User (Not a Domain Admin❗️), we’re not allowed to view or open the file entirely.
 </p>
 <p>
   <img src="https://i.imgur.com/wq8YTk9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
