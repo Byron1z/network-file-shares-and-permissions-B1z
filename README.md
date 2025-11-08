@@ -170,7 +170,7 @@ This process ensures that only authorized users can access or modify files, main
   12. Sign back into Client-1 as (biv.fim) and try to access the “accounting” folder share in
 \\DC-1\ - Does it work now?
 
-  Yes it works now, Domain User "biv.fim" now has access to the "Accounting" folder.
+  Yes it works now, Domain User "biv.fim" now has access to the "Accounting" folder ✅️.
 </p>
 <p>
   <img src="https://i.imgur.com/hHyv6Nq.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
