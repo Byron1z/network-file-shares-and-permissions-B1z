@@ -54,7 +54,7 @@ This process ensures that only authorized users can access or modify files, main
   
   1. Connect/log into "DC-1" as your Domain Admin account (mydomain.com\jane_admin)
   
-  2. Connect/log into "Client-1" as a Normal User (mydomain\<someuser>) – **(*biv.fim*)**
+  2. Connect/log into "Client-1" as a Normal User (mydomain\<someuser>) – **(biv.fim)**
 
   3. On DC-1, on the C:\ drive, create 4 folders: “**read-access**”, “**write-access**”, “**no-access**”, “**accounting**”.
 
