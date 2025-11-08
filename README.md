@@ -32,6 +32,7 @@ Network File Shares is a way for users to access another computer’s folder ove
 For this Lab, we’ll utilize the installation of the Active Directory lab.
 </p>
 <br />
+
 <h2>How are File Permissions enforced in a Network environment?</h2>
 <p>
 
@@ -45,7 +46,8 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   <img src="https://i.imgur.com/EKaUOTR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<h2>Create some sample File Shares with various Permissions</h2>
+
+<h2>📂 Create some sample File Shares with various Permissions</h2>
 <p>
   
   1. Connect/log into "DC-1" as your Domain Admin account (mydomain.com\jane_admin)
