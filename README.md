@@ -100,7 +100,8 @@ This process ensures that only authorized users can access or modify files, main
 
 <h2>🟢 Attempt to access File Shares as a Normal User from Client-1</h2>
 <p>
-   5. On Client-1, navigate to the shared folder (start, run, \\dc-1) 
+
+   5. On Client-1, navigate to the shared folder (start, run, `\\dc-1`) 
 </p>
 <p>
   <img src="https://i.imgur.com/tJv6M5S.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
