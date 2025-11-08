@@ -87,11 +87,12 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
    <img src="https://i.imgur.com/5c58CBu.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
   For this folder, only Domain Admins will have access, not Domain Users. Here's why by answering the question "What are the risks of sharing folders with Domain Users?".
 
   Sharing folders with Domain Users can expose sensitive data to a large group of people, increasing the risk of unauthorized access or data breaches. It is important to carefully manage permissions and only grant access to users who need it for their work. Additionally, auditing and monitoring access can help detect and prevent misuse of shared resources.
   
-  d. (Skip "accounting" folder for now)
+  d. (Skip "**accounting**" folder for now)
 </p>
 <br />
 
