@@ -62,9 +62,10 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   <img src="https://i.imgur.com/wYS7Ok7.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+
   4. Set the following permissions (share the folder) from DC-1. 
 
-  Go to the location of the folder, right-click, Properties -> Sharing -> Share..., then type the name of the group you want to give File Permissions. 
+  Go to the location of the folder, right-click, **Properties -> Sharing -> Share...**, then type the name of the group you want to give File Permissions. 
 
   a. Folder: “read access”, Group: “Domain Users”, Permission: “Read”
 </p>
