@@ -54,7 +54,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
 
 - **Example**: A company's server hosts a shared "Documents" folder that all employees can access from their workstations to work on projects together. 
 </p>
-<h4>Make use of Active Directory</h4>
+<h4>Make use of Active Directory✅️</h4>
 <p>
   Using the Server-Client model, the Active Directory infrastructure is a primary way to manage and use network file shares by providing centralized authentication and permission control for accessing shared files and folders. 
   
