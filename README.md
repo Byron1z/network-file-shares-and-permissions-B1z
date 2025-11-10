@@ -54,6 +54,11 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
 
 - **Example**: A company's server hosts a shared "Documents" folder that all employees can access from their workstations to work on projects together. 
 </p>
+<p>
+  Using the Server-Client model, the Active Directory infrastructure is a primary way to manage and use network file shares by providing centralized authentication and permission control for accessing shared files and folders. 
+  
+  It allows administrators to manage user accounts, groups, and security policies, which then determines who can access which network resources like file shares, ensuring secure and organized data access. 
+</p>
 <br />
 
 <h2>How are File Permissions enforced in a Network environment?</h2>
