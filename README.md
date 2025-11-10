@@ -34,7 +34,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
 </p>
 <br />
 
-<h2>How does Network File Sharing work?</h2>
+<h2>📁 How does Network File Sharing work?</h2>
 <p>
   
   Network file sharing allows devices to access files from a central location over a local network or the internet, using either a server-client model or a peer-to-peer (P2P) model. There's also **Cloud-based file sharing** such as third-party services **(like *Google Drive* or *Dropbox*)**. 
