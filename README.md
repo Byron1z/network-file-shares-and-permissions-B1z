@@ -46,11 +46,11 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
 <h3>Server-Client Model</h3>
 <p>
   
-- Setup: A folder is designated as a "network share" on one host computer (the server).
+- **Setup**: A folder is designated as a "network share" on one host computer (the server).
   
-- Access: Other computers on the network (clients) can connect to this shared folder, which appears like a local drive to them.
+- **Access**: Other computers on the network (clients) can connect to this shared folder, which appears like a local drive to them.
 
-- Permissions: The server administrator sets permissions to control who can access the files and what actions they can perform (e.g., read-only, read/write).
+- **Permissions**: The server administrator sets permissions to control who can access the files and what actions they can perform (e.g., read-only, read/write).
 
 - **Example**: A company's server hosts a shared "Documents" folder that all employees can access from their workstations to work on projects together. 
 </p>
