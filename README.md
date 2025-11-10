@@ -27,9 +27,32 @@
   <img src="https://i.imgur.com/eL7VqU9.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Network File Shares is a way for users to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
   
-For this Lab, we’ll utilize the installation of the Active Directory lab.
+Network File Shares is a way for user(s) to access another computer’s folder over the Network. And users can assign different permissions to other users or groups.
+  
+For this Lab, we’ll utilize the installation of the Active Directory lab since it will as the **server-client system**.
+</p>
+<br />
+
+<h2>How does Network File Sharing work?</h2>
+<p>
+  
+  Network file sharing allows devices to access files from a central location over a local network or the internet, using either a server-client model or a peer-to-peer (P2P) model. There's also **Cloud-based file sharing** such as third-party services **(like *Google Drive* or *Dropbox*)**. 
+  
+  In a **server-client system**, a host computer or **server** makes a folder(s) available, and client devices (computers) can access, read, or modify files based on set permissions. In P2P sharing, devices share files directly with each other without a central server. 
+  
+  For this lab, we'll use the **server-client system** model for Network File Sharing, which will be the **Active Directory infrastructure**. 
+</p>
+<h3>Server-client model</h3>
+<p>
+  
+- Setup: A folder is designated as a "network share" on one host computer (the server).
+  
+- Access: Other computers on the network (clients) can connect to this shared folder, which appears like a local drive to them.
+
+- Permissions: The server administrator sets permissions to control who can access the files and what actions they can perform (e.g., read-only, read/write).
+
+- **Example**: A company's server hosts a shared "Documents" folder that all employees can access from their workstations to work on projects together. 
 </p>
 <br />
 
@@ -40,7 +63,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab.
   
   If the user has the necessary permissions, access is granted; otherwise, it is denied. 
 
-This process ensures that only authorized users can access or modify files, maintaining security and data integrity
+This process ensures that only authorized users can access or modify files, maintaining security and data integrity.
 </p>
 <br />
 <h2>When might we use File Share</h2>
