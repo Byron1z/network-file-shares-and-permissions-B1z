@@ -165,7 +165,8 @@ This process ensures that only authorized users can access or modify files, main
 
 <h2>🔵 Create an “ACCOUNTANTS” Security Group, assign Permissions, and test Access</h2>
 <p>
-  7. Go back to DC-1, in Active Directory Users & Computers (ADUC), create a security group called “ACCOUNTANTS”.
+
+  7. Go back to DC-1, in **Active Directory Users & Computers (ADUC)**, create a security group called “ACCOUNTANTS”.
 </p>
 <p>
   <img src="https://i.imgur.com/lZzjbR2.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
