@@ -94,7 +94,7 @@ This process ensures that only authorized users can access or modify files, main
 </p>
 <p>
 
-  4. Set the following permissions (share the folder) from DC-1. 
+  4. Set the following permissions (**share the folder**) from DC-1. 
 
   Go to the location of the folder, right-click, **Properties -> Sharing -> Share...**, then type the name of the group you want to give File Permissions. 
 
