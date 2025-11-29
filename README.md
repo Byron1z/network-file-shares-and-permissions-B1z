@@ -43,7 +43,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
   
   For this lab, we'll use the **Server-client system** model for Network File Sharing, which will be the **Active Directory infrastructure**. 
 </p>
-<h3>Server-Client Model</h3>
+<h3>🔵 Server-Client Model</h3>
 <p>
   
 - **Setup**: A folder is designated as a "network share" on one host computer (the server).
