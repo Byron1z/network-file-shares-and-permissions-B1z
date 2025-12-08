@@ -39,7 +39,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
   
   Network file sharing allows devices to access files from a central location over a local network or the internet, using either a **Server-client model** or a *Peer-to-Peer* (**P2P**) model. There's also **Cloud-based file sharing** such as third-party services **(like *Google Drive* or *Dropbox*)**. 
   
-  In a **Server-Client System**, a **host computer** or **Server** makes a folder(s) available, and client devices (computers) can access, read, or modify files based on set permissions. In **P2P** sharing, devices share files directly with each other without a central server. 
+  🔷️ In a **Server-Client System**, a **host computer** or **Server** makes a folder(s) available, and client devices (computers) can access, read, or modify files based on set permissions. In **P2P** sharing, devices share files directly with each other without a central server. 
   
   For this lab, we'll use the **Server-client system** model for Network File Sharing, which will be the **Active Directory infrastructure**. 
 </p>
