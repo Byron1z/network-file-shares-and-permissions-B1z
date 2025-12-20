@@ -67,7 +67,7 @@ For this Lab, we’ll utilize the installation of the Active Directory lab since
 
   File Permissions in a network environment are enforced by the operating system and network protocols. When a user attempts to access a file, the system checks the user's permissions against the file's **Access Control List (ACL)**. 
   
-  If the user has the necessary permissions, access is granted; otherwise, it is denied. 
+  If the user has the necessary permissions, access is granted✅️; otherwise, it is denied🚫. 
 
 This process ensures that only authorized users can access or modify files, maintaining security and data integrity.
 </p>
